@@ -3,7 +3,7 @@
 """
 import pytest
 from selene.support.shared import config
-from homework.git_auth import GitAuth
+from git_auth import GitAuth
 
 
 @pytest.fixture(params=[(1920, 1080), (390, 884)])

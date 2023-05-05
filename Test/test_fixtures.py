@@ -1,7 +1,7 @@
 """
 Сделайте разные фикстуры для каждого теста, которые выставят размеры окна браузера
 """
-from homework.git_auth import GitAuth
+from git_auth import GitAuth
 
 
 def test_github_desktop(desktop_config):
